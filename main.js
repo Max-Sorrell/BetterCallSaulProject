@@ -3,11 +3,12 @@ var prevScrollPos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollPos == currentScrollPos) {
-    document.getElementById("header").style.top = "-100px";
+    document.getElementById("saulHeaderID").style.top = "-100px";
   } else {
-    document.getElementById("header").style.top = "0px";
+    document.getElementById("saulHeaderID").style.top = "0px";
   }
 }
+/*
 var prevScrollPos = window.pageYOffset;
 window.onload = function() {
   var currentScrollPos = window.pageYOffset;
@@ -19,3 +20,4 @@ window.onload = function() {
 }
 
 // exact same code as above except it means it works when the page is loaded 
+*/
