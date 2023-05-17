@@ -2,7 +2,7 @@
 var prevScrollPos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
-  if (prevScrollPos != currentScrollPos) {
+  if (prevScrollPos == currentScrollPos) {
     document.getElementById("header").style.top = "-100px";
   } else {
     document.getElementById("header").style.top = "0px";
@@ -11,7 +11,7 @@ window.onscroll = function() {
 var prevScrollPos = window.pageYOffset;
 window.onload = function() {
   var currentScrollPos = window.pageYOffset;
-  if (prevScrollPos != currentScrollPos) {
+  if (prevScrollPos == currentScrollPos) {
     document.getElementById("header").style.top = "-100px";
   } else {
     document.getElementById("header").style.top = "0px";

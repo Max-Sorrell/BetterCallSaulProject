@@ -1,7 +1,18 @@
 body{
     margin: 0px;
     width: 100%;
-    height: 200%;
+    min-height: 100%;
+
+
+background-size: 50px 50px;
+background-color: rgb(238, 0, 0);
+background-image: -webkit-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -moz-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -ms-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -o-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 50%, transparent 50%, transparent);
+
+
 }
 
 header{
@@ -10,14 +21,15 @@ header{
     top: 0; /* Stay on top */
     width: 100%; /* Full width */
     height: 75px;
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    transition: top 1s; /* Transition effect when sliding down (and up) */
   }
   
-  
-  header a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  p{
-    min-height: 2000px;
-  }
+#saulFlag{
+    background-color: green;
+    width: 80%;
+    height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
