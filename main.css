@@ -68,7 +68,7 @@ body{
     font-weight: bold;
     width: 50%;
     margin: none;
-    background-color: black;
+    background-color: green; /*up next i will reset this to green, then grab the menu from w3schools or somwehre and replace the button which replaces the menus - also need to change it to burger*/
     border-radius: 100%;
     min-width: 210px;
 
