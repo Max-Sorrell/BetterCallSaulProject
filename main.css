@@ -18,12 +18,15 @@ body{
 
 
 #saulHeaderID{
-    background-color: #333; /* Black background color */
+    background-color: #4c01fb; /* Black background color */
     position: fixed; /* Make it stick/fixed */
     top: 0; /* Stay on top */
     width: 100%; /* Full width */
-    height: 50px; /* reset to 50 */
+    height: 100px; /* reset to 50 or 100*/
     transition: top .5s; /* Transition effect when sliding down (and up) */
+
+    background-image: url(teststar2.png);
+    background-repeat: repeat;
   }
   
 #saulFlag{
@@ -33,6 +36,11 @@ body{
     margin-left: 10%;
     margin-right: 10%;
 
+
+}
+
+#saulLogo{
+  height: 75px;
 
 }
 
@@ -52,6 +60,7 @@ body{
     font-size: 18px; 
     line-height: 25px;
     border-radius: 4px;
+    background-color: rgba(255, 255, 255, 1);
   }
   
   .saulHeader a.logo {
@@ -59,6 +68,10 @@ body{
     font-weight: bold;
     width: 50%;
     margin: none;
+    background-color: black;
+    border-radius: 100%;
+    min-width: 210px;
+
   }
   
   .saulHeader a:hover {
@@ -71,7 +84,12 @@ body{
     color: white;
   }
   
-  .header-right, #aboutDirect, #contactDirect, #homeDirect {
+  .header-right {
+    float: right;
+
+  }
+  
+  #aboutDirect, #contactDirect, #homeDirect {
     float: right;
   }
 
