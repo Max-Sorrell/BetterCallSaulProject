@@ -21,3 +21,23 @@ window.onload = function() {
 
 // exact same code as above except it means it works when the page is loaded 
 */
+
+
+
+
+
+
+
+
+
+
+/*js code for curtain*/
+
+
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
