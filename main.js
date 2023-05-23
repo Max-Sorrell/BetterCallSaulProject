@@ -8,6 +8,17 @@ window.onscroll = function() {
     document.getElementById("saulHeaderID").style.top = "0px";
   }
 }
+
+var prevScrollPos = window.pageYOffset;
+window.onload = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollPos == currentScrollPos) {
+    document.getElementById("saulHeaderID").style.top = "-100px";
+  } else {
+    document.getElementById("saulHeaderID").style.top = "0px";
+  }
+}
+
 /*
 var prevScrollPos = window.pageYOffset;
 window.onload = function() {
