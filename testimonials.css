@@ -238,3 +238,25 @@ p{
     background-image: url(teststar2.png);
     color: #ff0000;
   }
+
+
+  /*extra css for the testimonial page*/
+
+  .testimonialsContainer{
+
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+  }
+
+  .testimonialsImages{
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 350px;
+    border: 5px #000000;
+    border-style: solid;
+    border-radius: 10px;
+  }
+

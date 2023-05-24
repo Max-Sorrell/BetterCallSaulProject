@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>test</title>
+</head>
+<body>
+    <header class = "saulHeader" id="saulHeaderID">
+        
+
+        <a href="main.html" class="logo"><img src="Better_Call_Saul_logo.svg.png" alt="HTML tutorial" id = "saulLogo"></a>
+        
+
+        <a class="header-right" class="active" href="#home" id = "homeDirect">Home</a>
+        <a class="header-right" href="contact.html" id = "contactDirect">Contact</a>
+        <a class="header-right" href="#about" id = "aboutDirect">About</a>
+        <a class="header-right" href="#testimonials.html" id = "testimonialsDirect">Testimonials</a>
+        
+
+
+          <a id="burger" onclick="openNav()">
+            <img src="menu_circular_button_burger_icon_124214.png" width = "25px" height = "25px">
+          </a>
+
+
+        
+
+
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#">Home</a>
+              <a href="contact.html">Contact</a>
+              <a href="#">About</a>
+              <a href="#">Testimonials</a>
+
+            </div>
+          </div>
+        
+
+    </header>
+
+    <div class = "main">
+
+        <h2>
+            Contact
+        </h2>
+
+        <p>
+            Are you ready to embark on a journey to legal victory? Don't waste another moment! Fill out the form below and take the first step towards resolving your legal woes. Whether you need a fierce defender in court or a cunning advisor for your business ventures, Saul Goodman is here to lend a helping hand. Just a few simple details, and we'll be in touch to discuss your case. Remember, time is of the essence when it comes to the law, so don't delay. Complete the form now, and let's begin our quest for justice together!
+            
+        </p>
+        <br><br><br>
+
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name...">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+        
+            
+
+            <label for="state">State</label>
+            <input type="text" id="state" name="state" placeholder="Your state...">
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+
+          <br><br><br>
+    </div>
+    
+    
+      
+</body>
+</html>
